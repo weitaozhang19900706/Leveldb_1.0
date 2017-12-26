@@ -1,0 +1,3 @@
+[Project]
+Manager=KDevCustomMakeManager
+Name=leveldb-1.12.0
