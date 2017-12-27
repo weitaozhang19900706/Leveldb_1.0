@@ -18,9 +18,6 @@ class BloomFilterPolicy : public FilterPolicy {
  private:
   size_t bits_per_key_;
   size_t k_;
-  
-  //todo weitao
-  size_t bits_per_key_in_level[50];
 
  public:
   explicit BloomFilterPolicy(int bits_per_key)

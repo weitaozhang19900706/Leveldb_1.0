@@ -32,3 +32,17 @@ class FilterBlockReader {
 class Compaction
 
 class TableBuilder
+
+
+FilterBlockBuilder & FilterBlockReader
+都有一个私有成员const FilterPolicy* policy_
+
+
+
+
+
+
+
+
+
+

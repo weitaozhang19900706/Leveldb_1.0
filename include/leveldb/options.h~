@@ -134,12 +134,10 @@ struct Options {
   //
   // Default: NULL
   
-  
+  //original 
   const FilterPolicy* filter_policy; 
   
-  //weitao add
-  //options_level used in construction and read process of a filter block, it specifies the level.
-  int options_level;
+  //FilterPolicy* filter_policy; //weitao modify
 
   // Create an Options object with default values for all fields.
   Options();
